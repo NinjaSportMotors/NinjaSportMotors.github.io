@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  font-family: 'Dancing Script', cursiva;
+  background-image: linear-gradient(-45deg, #fff 50% , #132630 50%);
+}
+
+
+section{
+  min-height: 100vh;
+  padding: 0 9%;
+  padding-top: 7.5rem;
+  padding-bottom: 2rem;
+}
+
+
+.inicio .image img{
+width: 50vh;
+height: 50vh;
+display: block;
+margin: -60px 800px;
+border-radius: 15px;
+margin-top: -575px;
+margin-bottom: 0;
+animation: float 3s linear infinite;
+}
+@keyframes float {
+  0%, 100%{
+    transform: translateY(0rem);
+  }
+  50%{
+    transform: translateY(-3.5rem);
+  }
+}
+
+
+
+.btn:hover{
+  transform: scale(1.1);
+}
+
+.card img{
+  width: 300px;
+  height: 300px;
+}
+
+
+header {
+  background: url('img/fondo.jpg');
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+section h1 {
+  font-size: 44px;
+  color: #3b5998;
+}
+
+section h2{
+  color: white;
+}
+
+.contenedor{
+    width: 100%;
+    max-width:900px;
+    margin: auto;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tabla{
+    width: 33%;
+    height: 550px;
+    margin: auto;
+    border:1px solid #343759;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px  #343759;
+    padding: 3px;
+    text-align: center;
+    flex-grow: 1;
+    color: #343759;
+}
+
+
+.tabla img{
+    width: 95%;
+    height: 99%;
+    margin-bottom:3px;
+}
+
+
+.btn{
+    display:block;
+    width: 150px;
+    padding:12px;
+    background: #2F7193;
+    text-decoration: none;
+    color: #EBF4F9;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+    margin-right: 50px;
+}
+
+.tabla:hover{
+    background: #343759;
+    color: #f1f1f2;
+    transition: .5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .tabla{
+        width: 45%;
+        max-width:none;
+        margin-bottom: 40px;
+        flex-grow: initial;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .tabla{
+        width: 45%;
+        padding:30px;
+    }
+    .tabla > h2{
+        margin-top:40px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .tabla{
+        width: 85%;
+        padding: 20px;
+    }
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.container .card{
+  width: 330px;
+  height: 330px;
+  border-radius: 10px;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card h4{
+  font-weight: 900;
+  font-family: sans-serif;
+  color: #E7961A;
+}
+
+.container .card p{
+  padding: 0 1rem;
+  font-size: 20px;
+  font-weight:500;
+  color: #000;
+}
