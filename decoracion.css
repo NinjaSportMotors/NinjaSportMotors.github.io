@@ -5,9 +5,9 @@
 }
 
 body{
-  bbackground: #659999;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   font-family: : 'Roboto', sans-serif;
 }
@@ -27,10 +27,10 @@ header{
 header .logo{
 text-align: center;
 margin-bottom: 40px 0;
-color: #4B643B;
+color: #F59A16;
 }
 header .logo p{
-  color: #4C7E66;
+  color: #fff;
   font-weight: bold;
   font-size: 20px;
 }
@@ -192,11 +192,11 @@ from{
   }
 }
 
-footer .creado-por{
-  margin-bottom: 40px;
+ .creado-por p{
   text-align: center;
-  font-size: 14px;
-  color: #000;
+  font-size: 18PX;
+  color: #FFE400;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 700px) {
@@ -208,4 +208,57 @@ header .barra-busqueda{
   width: 100%
 }
 
+}
+
+.form-register {
+  width: 400px;
+  background: #92908D;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #24303c;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.ov{
+  text-align: center;
+  font-size: 18PX;
+  color: #FF7000;
+  font-weight: bold;
 }
